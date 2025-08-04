@@ -25,6 +25,8 @@ The sub-folder structure is as follows:
 
 This needs different firmware to the original Gamma Omega design, see
 [Tutte Coxeter 36K firmware](https://github.com/peterjc/qmk_userspace/tree/main/keyboards/tutte_coxeter_36k).
+However, it uses the same case, which has an uppercase delta Γ on the the front.
+That Γ is often used in mathematical graph theory notation for a graph is a happy coincidence!
 
 ## Photos
 
