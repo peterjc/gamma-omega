@@ -1,3 +1,6 @@
 [submodule "original/ergogen/footprints/ceoloide"]
 	path = original/ergogen/footprints/ceoloide
 	url = https://github.com/ceoloide/ergogen-footprints.git
+[submodule "resources/kb_ergogen_helper"]
+	path = resources/kb_ergogen_helper
+	url = https://github.com/infused-kim/kb_ergogen_helper.git
