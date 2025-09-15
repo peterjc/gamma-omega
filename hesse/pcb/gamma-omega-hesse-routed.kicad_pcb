@@ -17432,7 +17432,7 @@
 			)
 		)
 	)
-	(gr_text "Designed Scotland August 2025,"
+	(gr_text "Designed Scotland Autumn 2025,"
 		(at 62.495703 111.488888 0)
 		(layer "F.SilkS")
 		(uuid "da0307cd-2022-4262-9661-236f467ee9d0")
@@ -17563,7 +17563,7 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "Designed Scotland August 2025,"
+	(gr_text "Designed Scotland Autumn 2025,"
 		(at 62.495703 111.488888 0)
 		(layer "B.SilkS")
 		(uuid "cd45674a-53f9-4768-ab03-246781b9f15e")
