@@ -980,7 +980,7 @@
 			(uuid "c7f1a3cf-981e-4b0c-8b01-1e8f98c17e8c")
 		)
 		(embedded_fonts no)
-		(model "/Users/peterjc/repositories/gamma-omega/cases/top-no-beams-reset2-beam2-Body.step"
+		(model "${KIPRJMOD}/../cases/top-hesse.step"
 			(opacity 0.9700)
 			(offset
 				(xyz -156.65 67 0)
