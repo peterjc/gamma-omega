@@ -981,15 +981,26 @@
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/../cases/top-hesse.step"
-			(opacity 0.9700)
 			(offset
-				(xyz -156.65 67 0)
+				(xyz -156.65 67 -1.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
 				(xyz -0 -0 -0)
+			)
+		)
+		(model "${KIPRJMOD}/nice_nano_v2.step"
+			(opacity 0.9000)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 90)
 			)
 		)
 	)
