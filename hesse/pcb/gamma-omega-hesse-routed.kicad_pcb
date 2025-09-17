@@ -1004,7 +1004,7 @@
 				(xyz -0 -0 90)
 			)
 		)
-		(model "${KIPRJMOD}/../../cases/bottom.step"
+		(model "${KIPRJMOD}/../cases/bottom-hesse.step"
 			(opacity 0.4000)
 			(offset
 				(xyz -156.65 67 -1.5)
