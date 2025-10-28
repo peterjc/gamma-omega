@@ -16,7 +16,7 @@
 | Gamma Omega Hesse PCB | 1 | 1.6mm thickness | JLCPCB |
 | Hesse Top case | 1 | SLA Resin | JLC3DP |
 | Hesse Bottom case | 1 | SLA Resin | JLC3DP |
-| 90 degree reset switch | 1 | Like [Tyco Electronics (TE) 1825027-8](https://www.te.com/en/product-1825027-8.html), a sideways 6x6mm base. Exact button stem height to be confirmed | |
+| 6x6x8H right angle reset switch | 1 | 90 degree reset switch like [Tyco Electronics (TE) 1825027-8](https://www.te.com/en/product-1825027-8.html), with a sideways 6x6mm base and 8mm from back of base to end of the button. | e.g. [AliExpress](https://www.aliexpress.com/item/4000275201465.html) |
 | JST connector | 1 | JST PH 2.0mm | |
 | 3.7V LiPo battery | 1 | eg 500mAh LP702035 with JST connector | 💡 |
 | Nice!Nano v2 or clone | 1 | The [SuperMini NRF52840](https://kriscables.com/supermini-nrf52840/) aka [ProMicro NRF52840](https://www.nologo.tech/product/otherboard/NRF52840.html) is tested. | [Offical](https://nicekeyboards.com/nice-nano#find-a-store), [AliExpress](https://www.aliexpress.com/item/1005006035267231.html) |
@@ -40,6 +40,11 @@
 > If you want so push it, the largest that might fit is probably a LP802040 - 650mAh,
 > again please let us know how that goes if you try.
 
+> [!TIP]
+> 3D printing varies, but with my case the 6x6x7H right angle switch was too short, and while
+> the 6x6x8H is easy to press it sticks out a fraction. The in-between 7.5mm version might be
+> a better choice (untested).
+
 ## Tools
 
 - Soldering tools.
@@ -60,12 +65,12 @@
   * Check the right LED turns on or off every second
   * With a multimeter check all 21 GPIO pins cycle from 0 to 3.3V once a second. 
 3. Short the reset pin (RST) to any of the ground pins (GND) twice in a second (just tap a few times).
-4. USB Mass Storage device named "NICENANO" appears.
-5. Copy the `hesse-nice_nano_v2-zmk.uf2`` firmware file to this storage device.
-  * On macOS you may get a error code -36 about failing to complete. This seems to be harmless here.
+4. USB Mass Storage device named `NICENANO` appears.
+5. Copy the `hesse-nice_nano_v2-zmk.uf2` firmware file to this storage device.
+  * On macOS you may get a error code -36 about failing to complete. This seems to be harmless.
 6. The storage will disconnect automatically.
-  * On macOS you well get a notification recomending unmounting before disconecting
-7. The device should now function as a keyboard when the firmware is successfully installed.
+  * On macOS you well get a notification recommending unmounting before disconnecting.
+7. The device should now function as a keyboard.
   * The battery charging LED will continue to flash with no battery connected.
   * You can try shorting pins like `D1/P0.06` and `D0/P0.08` top left which should type Qwerty `E`.
 7. Disconnect the USB cable to the controller.
@@ -92,9 +97,28 @@
   * Start with the four corners.
   * Then finish all 16 pins of each side.
   * Finally, the three extra pins in the middle.
-    These will be much the same for the offical Nice!Nano v2, but the clones positioned them about
-    2mm down and right which needs a longer briging wire - ideally pre-bent like a staple.
+    These will be much the same for the official Nice!Nano v2, but the clones positioned them about
+    2mm down and right which needs a longer bridging wire - ideally pre-bent like a hook.
 4. After soldering, carefully trim all protruding pins with a nipper.
+
+## Battery Connection
+
+> [!TIP]
+> Check your battery cable does fit the connector now, and get a feel for the
+> force needed to connect and disconnect it. Do not pull the wires, pull the plug.
+
+1. Insert the connector from the front side (which has the controller),
+2. Solder the two legs from the back (the side which has the hotswaps).
+
+## Reset Button
+
+> [!TIP]
+> If you have several sizes, please do a trial fit of the switch, PCB, and top case to pick
+> the best button length. For me the 7mm was too short, and the 8mm sticks out a fraction,
+> so the 7.5mm version could be better?
+
+1. Insert the right angle reset button from the front side (which has the controller).
+2. Solder the four legs from the back (the side which has the hotswaps).
 
 *Your PCB should look like this when completed (hopefully with neater soldering):*
 
@@ -105,28 +129,28 @@ TODO
 
 ## Initial Testing
 Connect the USB-C port on the assembled PCB, and it should still register as a keyboard.
-The power LED be flashing (since there is no battery yet).
+The power LED will be flashing (since there is no battery yet).
 
 As in the firmware notes above, press Caps Lock on your main keyboard and confirm the
 blue LED lights up (again, somewhat hidden).
 
-Use your favorite keystroke tester with a conductive tweezer to verify that all keys are working properly.
-
-## Reset Switch
-
-## Battery Connection
+Use your favorite keystroke tester with conductive tweezers to verify that all keys are working properly.
 
 ## Battery Testing
 
 1. With the controller NOT connected by USB, connect the battery using the JST socket.
-  * The keyboard should be available on USB and advertise on Bluetooth.
-  * The battery will usually be empty on shipping, so we don't expect anything to happen when connecting it.
-2. The battery should start charging - note the change in the LED.
+
+> [!TIP]
+> The battery may be empty on shipping, so we don't expect anything to happen when connecting it.
+
+2. Connect the USB port.
+3. The battery should start charging - note the change in the LED.
+4. The keyboard should be broadcasting as "Hesse" on Bluetooth.
 3. Wait a few minutes, monitor the battery for signs of overheating.
 4. Disconnect the USB
   * The LEDs should show it is still on
   * Check "Hesse" is still advertised on Bluetooth.
-5. Optionally disconnect the battery.
+5. Disconnect the battery, or continue to case assembly.
 
 ## Case Assembly
 ![Install the nuts (as in the other cases)](../images/tc36k-top-case-nuts.jpg)
@@ -139,9 +163,9 @@ Use your favorite keystroke tester with a conductive tweezer to verify that all 
 
 3. Connect the battery, keep it on the hotswap side with the wire though the battery cutout.
 4. Place the PCB into the top case, taking care to align the reset button and USB port (battery free on top).
-5. Place battery into the compartment.
+5. Place battery into the compartment, rotated to place no stress on the cable.
 6. Install switches into the top case while holding the PCB (hotswap sockets) in place.
-7. Adjust battery wire to fit inside.
+7. Adjust battery wire if needed to fit inside.
 5. Place the bottom case onto the top case assembly.
 6. Secure with screws (8mm or 6mm for upper side, 6mm for lower side).
 
