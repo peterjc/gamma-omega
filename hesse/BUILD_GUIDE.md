@@ -18,8 +18,8 @@
 | Hesse Bottom case | 1 | SLA Resin | JLC3DP |
 | 90 degree reset switch | 1 | Like [Tyco Electronics (TE) 1825027-8](https://www.te.com/en/product-1825027-8.html), a sideways 6x6mm base. Exact button stem height to be confirmed | |
 | JST connector | 1 | JST PH 2.0mm | |
-| 3.7V LiPo battery | 1 | eg 300mAh LP602030 with JST connector | 💡 |
-| Nice!Nano v2 or clone | 1 | The [SuperMini NRF52840](https://kriscables.com/supermini-nrf52840/) aka [ProMicro NRF52840](https://www.nologo.tech/product/otherboard/NRF52840.html) is tested. | [Offical](https://nicekeyboards.com/nice-nano#find-a-store), [Aliexpress](https://www.aliexpress.com/item/1005006035267231.html) |
+| 3.7V LiPo battery | 1 | eg 500mAh LP702035 with JST connector | 💡 |
+| Nice!Nano v2 or clone | 1 | The [SuperMini NRF52840](https://kriscables.com/supermini-nrf52840/) aka [ProMicro NRF52840](https://www.nologo.tech/product/otherboard/NRF52840.html) is tested. | [Offical](https://nicekeyboards.com/nice-nano#find-a-store), [AliExpress](https://www.aliexpress.com/item/1005006035267231.html) |
 | Pin headers/diode legs | 35+ | Use the headers included with the controller |  |
 
 > [!NOTE]
@@ -35,9 +35,10 @@
 > However, that will not work with the suggested case bottom (which has hot-swap cut-outs).
 
 > [!TIP]
-> The battery compartment will take a 300mAh LP602030 battery fine, but a little larger could work too.
-> For example, the longer ~480mAh LP602035 ought to fit (untested), and *perhaps* even
-> a little thicker (but you do not want to squeeze the battery)?
+> The battery compartment will take a 300mAh LP602030 3.7V LiPo battery with ample space to spare.
+> A 500mAh LP702035 500mAh should fit comfortably and is suggested, but as yet untested.
+> If you want so push it, the largest that might fit is probably a LP802040 - 650mAh,
+> again please let us know how that goes if you try.
 
 ## Tools
 
