@@ -13,10 +13,21 @@
 
 ## Photos
 
-<img title="Assembled Gamma Omega TC36K keyboard in black and purple"
+The first TC36K build by [@peterjc](https://github.com/peterjc/), who designed the PCB, in black resin with purple MBK keycaps:
+
+<img title="Assembled Gamma Omega TC36K keyboard with black case and purple MBK keycaps"
 src="../images/tc36k-purple.jpg" height="200" /> <img
-title="Inside the Gamma Omega TC36K with the bottom case off showing the no-diode PCB"
+title="Inside the Gamma Omega TC36K with the bottom case off, showing the no-diode PCB"
 src="../images/tc36k-back-off.jpg" height="200" />
+
+A pair of TC36K built by [@Celepara](https://github.com/Celepara) in transparent resin with blue PCB and black DDC keycaps:
+
+<img
+title="Two assembled Gamma Omega TC36K keyboards in transparent cases with blue PCB and black DDC keycaps, leaning against a stone pillar with autumn leaves."
+src="../images/tc36k-transparent-pillar.jpg" height="200" /> <img title="Two assembled Gamma Omega TC36K keyboards in transparent cases with blue PCB and black DDC keycaps, resting on a metal grill with autumn leaves"
+src="../images/tc36k-transparent-pair.jpg" height="200" /> <img
+title="Two assembled Gamma Omega TC36K keyboards in transparent cases with blue PCB and black DDC keycaps, one upside down, resting on a metal grill with autumn leaves"
+src="../images/tc36k-transparent-top-bottom.jpg" height="200" />
 
 ## PCB design
 
