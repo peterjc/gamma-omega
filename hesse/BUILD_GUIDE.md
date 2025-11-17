@@ -1,6 +1,7 @@
-# TC36k Build guide
+# Hesse Build guide
 
-[Looking for the original's build guide?](../original/BUILD_GUIDE.md)
+Looking for the [original's build guide](../original/BUILD_GUIDE.md),
+or the [TC36K's build guide](../tc36k/BUILD_GUIDE.md)?
 
 # Parts List
 | Part | Quantity | Details | Source |
