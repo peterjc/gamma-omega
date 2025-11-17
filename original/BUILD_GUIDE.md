@@ -28,7 +28,9 @@
 > ![YD_PR2040 "black" Pi Pico microcontroller](../images/black-raspberry-pi-pico-boot.png)
 
 > [!TIP]
-> Actually, the PCB is compatible with choc v2 and Lofree POM switches. However, since the key spacing is 18x17mm, there may be issues with keycap compatibility. Please keep this in mind.
+> Actually, the PCB is compatible with choc v2 and Lofree POM switches.
+> However, since the key spacing is 18x17mm, there may be issues with keycap compatibility.
+> Consider the Tai Hao "THCS" or square "MT 165" with the cross stem option.
 
 
 ## Tools

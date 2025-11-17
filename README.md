@@ -25,7 +25,7 @@ _See the `README.md` in each folder for more information._
 
 ### Spacing
 
-18 x 17mm (Choc spacing with a tighter grid)
+18 x 17mm (Choc spacing with a tighter grid than MX keyboards)
 
 ### Dimensions
 
@@ -36,7 +36,7 @@ _See the `README.md` in each folder for more information._
 
 ### Weight
 
-full built: approx. 301g (Original), 308g (TC36K)
+Fully built: approx. 301g (Original), 308g (TC36K)
 
 ### ergogen
 
@@ -53,7 +53,7 @@ The PCB was generated using [Ergogen](https://github.com/ergogen/ergogen), an er
 - This project was greatly inspired by his work. In particular, TOTEM. [TOTEM](https://github.com/GEIGEIGEIST/totem) is my favorite lo-pro split keyboard. Please check it out.​​​​​​​​​​​​​​​​
 
 [Peter Cock](https://github.com/peterjc)
-- Thanks for creating and contributing to the TC36k variant.
+- Thanks for creating and contributing the TC36K and Hesse variants.
 
 ## Contributing
 

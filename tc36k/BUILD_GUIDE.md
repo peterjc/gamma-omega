@@ -35,6 +35,7 @@
 > compatible with choc v1 or v2 switches with no stabilizer pin.
 > However, since the key spacing is 18x17mm, there are not many compatible keycaps
 > for the Mx style stem on the choc v2 switches.
+> Consider the Tai Hao "THCS" or square "MT 165" with the cross stem option.
 
 > [!TIP]
 > This PCB allows directly soldering the choc switches (rotated 180 degress) without using hot-swap sockets.
