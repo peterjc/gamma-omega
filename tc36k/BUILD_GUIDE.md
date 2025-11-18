@@ -133,6 +133,8 @@ Use your favorite keystroke tester with a conductive tweezer to verify that all 
 > [!CAUTION]
 > My top case had warped ever so slightly, meaning the switches and outer screws are also bending it straight.
 
+7. Apply the six feet bumpon stickers to the sunken circles on the case bottom.
+
 ## DONE!
 
 My assembled Gamma Omega TC36K, black resin top case with purple MBK keycaps
