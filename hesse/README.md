@@ -12,9 +12,19 @@
 
 ## Photos
 
-Pending, but it looks like the original Gamma Omega - the key placement, PCB outline
-and case outline remain the same. However the reset button is now on the top edge along
-from the USB connector.
+
+The first Hesse build, by [@peterjc](https://github.com/peterjc/), who designed the PCB
+and case modification, in black resin with black/orange/blue CFX keycaps:
+
+<img title="Assembled Gamma Omega Hesse keyboard with black case and black/orange/blue CFX keycaps, plugged in with blue LED on for charging."
+src="../images/hesse-assembled-charging.jpg" height="200" /> <img
+title="Inside the Gamma Omega Hesse with the bottom case off, showing the no-diode PCB and battery placement."
+src="../images/hesse-pcb-and-battery-in-top-case.jpg" height="200" /> <img
+title="Gamma Omega TC36K on left (purple MBK keycaps) and Gamma Omega Hesse on right (black/orange/blue CFX keycaps) showing reset button."
+src="../images/tc36k-and-hesse.jpg" height="200" /> 
+
+The only exterior difference from the original and TC36K is the reset button is now
+on the top edge along from the USB connector.
 
 ## PCB design
 
