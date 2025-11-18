@@ -13,7 +13,7 @@ There are currently three variants of Gamma Omega in this repository, all using 
 |-|-|-|-|-|-|-|-|
 | [Original](/original/) | Raspberry Pi Pico | USB | Twin | 36 | NKRO 🥇 | Choc v1, v2 | :white_check_mark: | 
 | [TC36K](/tc36k/) | Raspberry Pi Pico | USB | Mono | 0 | 6KRO 🥈 | Choc v1, v2[^1] | :white_check_mark: |
-| [Hesse](/hesse/) | Nice!Nano v2/clone | USB/BLE | Mono | 0 | 4KRO 🥉 | Choc v1, v2 | :construction: |
+| [Hesse](/hesse/) | Nice!Nano v2/clone | USB/BLE | Mono | 0 | 4KRO 🥉 | Choc v1, v2 | :white_check_mark: |
 
 [^1]: Choc v2 support since the TC36K v1.1.0.
 
