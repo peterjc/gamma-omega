@@ -13,7 +13,7 @@ There are currently three variants of Gamma Omega in this repository, all using 
 |-|-|-|-|-|-|-|-|
 | [Original](/original/) | Raspberry Pi Pico | USB | Twin | 36 | NKRO 🥇 | Choc v1, v2 | :white_check_mark: | 
 | [TC36K](/tc36k/) | Raspberry Pi Pico | USB | Mono | 0 | 6KRO 🥈 | Choc v1, v2[^1] | :white_check_mark: |
-| [Hesse](/hesse/) | Nice!Nano v2/clone | USB/BLE | Mono | 0 | 4KRO 🥉 | Choc v1, v2 | :construction: |
+| [Hesse](/hesse/) | Nice!Nano v2/clone | USB/BLE | Mono | 0 | 4KRO 🥉 | Choc v1, v2 | :white_check_mark: |
 
 [^1]: Choc v2 support since the TC36K v1.1.0.
 
@@ -25,20 +25,20 @@ _See the `README.md` in each folder for more information._
 
 ### Spacing
 
-18 x 17mm (Choc spacing with a tighter grid)
+18 x 17mm (Choc spacing with a tighter grid than MX keyboards)
 
 ### Dimensions
 
  - Length: 246mm
- -  Width: 119mm
+ - Width: 119mm
  - Height: approx. 18mm 
    - feet to keycap (2mm height rubber feet and CFX choc v1 keycap)
 
 ### Weight
 
-full built: approx. 301g (Original), 308g (TC36K)
+Fully built, the Original, TC36K, and Hesse variants all weigh approximately 300 to 310g (depending on your component choices).
 
-### ergogen
+### Ergogen
 
 The PCB was generated using [Ergogen](https://github.com/ergogen/ergogen), an ergonomic keyboard generator tool that simplifies the creation of custom keyboard layouts.
 
@@ -53,7 +53,7 @@ The PCB was generated using [Ergogen](https://github.com/ergogen/ergogen), an er
 - This project was greatly inspired by his work. In particular, TOTEM. [TOTEM](https://github.com/GEIGEIGEIST/totem) is my favorite lo-pro split keyboard. Please check it out.​​​​​​​​​​​​​​​​
 
 [Peter Cock](https://github.com/peterjc)
-- Thanks for creating and contributing to the TC36k variant.
+- Thanks for creating and contributing the TC36K and Hesse variants.
 
 ## Contributing
 

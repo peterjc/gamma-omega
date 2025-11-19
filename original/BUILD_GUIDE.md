@@ -13,7 +13,7 @@
 | 1n4148 diode | 36 |  | [Aliexpress](https://a.aliexpress.com/_oCcCwmR) |
 | Kailh Choc PG1350 HotSwap Sockets | 36 | | |
 | Kailh Choc switches | 36 | PG1350 | *BUT* |
-| Keycap | 36 | MBK, CFX or | |
+| Keycap | 36 | MBK, CFX, ... | |
 | Gamma Omega PCB | 2 | 1.6mm thickness | JLCPCB |
 | Top case | 1 | SLA Resin | JLC3DP |
 | Bottom case | 1 | SLA Resin | JLC3DP |
@@ -28,7 +28,9 @@
 > ![YD_PR2040 "black" Pi Pico microcontroller](../images/black-raspberry-pi-pico-boot.png)
 
 > [!TIP]
-> Actually, the PCB is compatible with choc v2 and Lofree POM switches. However, since the key spacing is 18x17mm, there may be issues with keycap compatibility. Please keep this in mind.
+> Actually, the PCB is compatible with choc v2 and Lofree POM switches.
+> However, since the key spacing is 18x17mm, there may be issues with keycap compatibility.
+> Consider the Tai Hao "THCS" or square "MT 165" with the cross stem option.
 
 
 ## Tools
@@ -112,8 +114,11 @@ Use your favorite keystroke tester (or Vial's Key matrix tester) with a conducti
 4. Install switches into the top case while holding the PCB (hotswap sockets) in place.
 5. Place the bottom case onto the top case assembly.
 6. Secure with screws (8mm or 6mm for upper side, 6mm for lower side).
+
 > [!CAUTION]
-> Do not overtighten: the screws only need to support the bottom case's weight.
+> Do not over-tighten: the screws only need to support the bottom case's weight.
+
+7. Apply the six feet bumpon stickers to the sunken circles on the case bottom.
 
 ## DONE!
 ![back](../images/gamma1.jpg)

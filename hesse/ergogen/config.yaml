@@ -251,8 +251,9 @@ outlines:
       name: pretty-pcb-nf
       fillet: 0.5
     - what: rectangle # battery cut-out
-      # eg LP301230 - 110mAh 3.7V LiPo battery, about 15 x 35 x 3mm
-      # eg LP502030 - 250mAh 3.7V LiPo battery, just over 20 x 30 x 5mm
+      # Confirmed to fit easily: LP602030 - 300mAh 3.7V LiPo battery, about 20 x 30 x 6mm
+      # Expected to fit: LP702035 - 500mAh 3.7V LiPo battery, about 20 x 36 x 7mm
+      # Probably the limit. LP802040 - 650mAh, about 80 x 20 x 8mm
       where: matrix_inner_top
       asym: source
       size: [41,24]
