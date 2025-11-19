@@ -30,15 +30,15 @@ _See the `README.md` in each folder for more information._
 ### Dimensions
 
  - Length: 246mm
- -  Width: 119mm
+ - Width: 119mm
  - Height: approx. 18mm 
    - feet to keycap (2mm height rubber feet and CFX choc v1 keycap)
 
 ### Weight
 
-Fully built: approx. 301g (Original), 308g (TC36K)
+Fully built, the Original, TC36K, and Hesse variants all weigh approximately 300 to 310g (depending on your component choices).
 
-### ergogen
+### Ergogen
 
 The PCB was generated using [Ergogen](https://github.com/ergogen/ergogen), an ergonomic keyboard generator tool that simplifies the creation of custom keyboard layouts.
 
