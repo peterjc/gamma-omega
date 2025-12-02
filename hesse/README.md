@@ -14,7 +14,8 @@
 
 
 The first Hesse build, by [@peterjc](https://github.com/peterjc/), who designed the PCB
-and case modification, in black resin with black/orange/blue CFX keycaps:
+and case modification, in black resin with black/orange/blue Chosfox CFX keycaps on
+Choc v1 switches:
 
 <img title="Assembled Gamma Omega Hesse keyboard with black case and black/orange/blue CFX keycaps, plugged in with blue LED on for charging."
 src="../images/hesse-assembled-charging.jpg" height="200" /> <img
@@ -23,8 +24,16 @@ src="../images/hesse-pcb-and-battery-in-top-case.jpg" height="200" /> <img
 title="Gamma Omega TC36K on left (purple MBK keycaps) and Gamma Omega Hesse on right (black/orange/blue CFX keycaps) showing reset button."
 src="../images/tc36k-and-hesse.jpg" height="200" /> 
 
-The only exterior difference from the original and TC36K is the reset button is now
-on the top edge along from the USB connector.
+And again, but with "Navy" Tai-Hao THCS flat keycaps on Choc v2 switches (which to
+me are more of a green/grey, and are really flat):
+
+<img title="Assembled Gamma Omega Hesse keyboard with black case and 'navy' Tai-Hao THCS keycaps."
+src="../images/hesse-thcs-navy.jpg" height="200" /> <img
+title="Inside the Gamma Omega Hesse with  black case and 'navy' Tai-Hao THCS keycaps in profile - they're really flat!"
+src="../images/hesse-thcs-profile.jpg" height="200" />
+
+The only meaningful exterior difference from the original and TC36K is the reset button
+is now on the top edge along from the USB connector.
 
 ## PCB design
 

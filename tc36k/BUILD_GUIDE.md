@@ -12,7 +12,7 @@
 | Feet bumpons | 6 | 8mm diameter, any height. | |
 | Kailh Choc PG1350 HotSwap Sockets | 36 | 💡 | |
 | Kailh Choc switches | 36 | PG1350 | ⚠️ |
-| Keycap | 36 | MBK, CFX, ... | |
+| Keycap | 36 | MBK, CFX, THCS, ... | |
 | Gamma Omega TC36K PCB | 1 | 1.6mm thickness | JLCPCB |
 | Top case | 1 | SLA Resin | JLC3DP |
 | Bottom case | 1 | SLA Resin | JLC3DP |
@@ -31,7 +31,7 @@
 > As long as you don't care about the boot button, standard 26 GPIO Pi Pico designs *should* be fine (untested).
 
 > [!NOTE]
-> As of PCB v1.1.0, the central hole for each switch has been enlarged and should be
+> As of PCB v1.1.0, the central hole for each switch has been enlarged to be
 > compatible with choc v1 or v2 switches with no stabilizer pin.
 > However, since the key spacing is 18x17mm, there are not many compatible keycaps
 > for the Mx style stem on the choc v2 switches.

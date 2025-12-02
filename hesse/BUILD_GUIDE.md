@@ -12,8 +12,8 @@ or the [TC36K's build guide](../tc36k/BUILD_GUIDE.md)?
 | M2x8 Countersunk screw | 4 | 8mm length (or 6mm × 8) | |
 | Feet bumpons | 6 | 8mm diameter, any height. | |
 | Kailh Choc PG1350 HotSwap Sockets | 36 | 💡 |
-| Kailh Choc v1 switches | 36 | PG1350 | 💡 |
-| Keycap | 36 | MBK, CFX, ... | |
+| Kailh Choc switches | 36 | PG1350 | 💡 |
+| Keycap | 36 | MBK, CFX, THCS, ... | |
 | Gamma Omega Hesse PCB | 1 | 1.6mm thickness | JLCPCB |
 | Hesse Top case | 1 | SLA Resin | JLC3DP |
 | Hesse Bottom case | 1 | SLA Resin | JLC3DP |
@@ -32,7 +32,7 @@ or the [TC36K's build guide](../tc36k/BUILD_GUIDE.md)?
 > Using a clone controller requires bridging this with bent pins.
 
 > [!NOTE]
-> No-stabilizer Choc v2 switches should work too, the central hole is large enough.
+> No-stabilizer Choc v2 switches work too, the central hole is large enough.
 > However, since the key spacing is 18x17mm, there are not many compatible keycaps.
 > Consider the Tai Hao "THCS" or square "MT 165" with the cross stem option.
 
@@ -230,16 +230,23 @@ Your PCB should look like this when completed:
 
 ## DONE!
 
-Here is my Hesse with a black resin case and Chosfox keycaps (which are square and slightly narrower).
-This used black blanks for the home row and thumbs, orange for the top and bottom on the left, and
-the pale blue for top and bottom on the right. I used homing keys for the index and pinky fingers,
-and am using wider 1.25u keycaps for the middle thumb buttons and the S and L keys. This is plugged
-in and charging with a matching blue USB cable:
+Here is my Hesse with a black resin case, Kailh Choc v1 50g 'red' switches, and Chosfox CFX
+keycaps (which are square and slightly narrower). This used black blanks for the home row and
+thumbs, orange for the top and bottom on the left, and pale blue for top and bottom on the right.
+I used homing keys for the index and pinky fingers, and am using wider 1.25u keycaps for the
+middle thumb buttons and the S and L keys.
+This is plugged in and charging with a matching blue USB cable:
 
-![Assembled Hesse keyboard in black with black/orange/blue keycaps](../images/hesse-assembled-charging.jpg)
+![Assembled Hesse keyboard in black with black/orange/blue Chosfox CFX keycaps](../images/hesse-assembled-charging.jpg)
 
 The power LED (blue on the clone controllers) can be easily seen through the black resin case.
 The red user LEDs is more muted.
+
+And here is the same black keyboard with 35g Kailh Islet Pink Mini Low Profile Silent Linear
+Switches (which are Choc v2 with the cross stem), and the very flat Tai-Hao THCS keycaps in
+their greenish grey 'Navy' option. They currently do not offer any homing keys in this size:
+
+![Assembled Hesse keyboard in black with 'Navy' Tai-Hao THCS keycaps](../images/hesse-thcs-navy.jpg)
 
 ### Everything is done.
 
