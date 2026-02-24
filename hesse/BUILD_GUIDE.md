@@ -66,9 +66,10 @@ or the [TC36K's build guide](../tc36k/BUILD_GUIDE.md)?
 ## Firmware Flashing
 
 1. Download the [hesse-nice_nano_v2-zmk.uf2](https://github.com/peterjc/zmk-keyboard-graph-theory/releases/download/latest/hesse-nice_nano_v2-zmk.uf2) firmware.
-2. Connect the controller, the clones are pre-loaded with a blink program.
-  * Check the left LED flashes once a second.
-  * Check the right LED turns on or off every second.
+2. Connect the controller. The official Nice!Nano v2 is not expected to do this,
+but the clones *may* be pre-loaded with a blink program that does this:
+  * Left LED flashes once a second.
+  * Right LED turns on or off every second.
   * With a multimeter check all 21 GPIO pins cycle from 0 to 3.3V once a second.
 3. Short the reset pin (RST) to any of the ground pins (GND) twice in a second (just tap a few times).
 4. USB Mass Storage device named `NICENANO` appears.
